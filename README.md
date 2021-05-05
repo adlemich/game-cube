@@ -20,4 +20,8 @@ Die Idee hier ist eine spielerische Umgebung zu schaffen um Kinder an das Progra
 Und wer nicht programmieren im Vordergrund sieht, es ist ein schönes Bastelprojekt. Mit der fertigen Spiele-Software kann man auch ohne Programmierung ein funktionsfähiges Gerät zusammenbauen.
 
 # Was muss ich tun?
-TBD
+Oben rechts auf dieser Seite gibt es den "Code" - Knopf, hier über das Dropdown "Download ZIP" auswählen. Damit laded ihr das Projekt herunter.
+Nach dem Download müsst ihr die ZIP Datei auf eurem PC entpacken. Dann nutzt bitte die Anleitung "Arduino für Kinder - GameCube.pdf", hier findet ihr alle Details.
+
+Viel Spaß damit.
+
