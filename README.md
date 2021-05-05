@@ -14,7 +14,7 @@ Der Game Cube ist ein digitales Spielzeug, das man selbst programmieren kann. Fe
 
 Dahinter steckt ein Ardunio Micro-Controller. Hier wird Software aufgespielt die die Hardware (Knöpfe und Co.) nutzt um dann entsprechend Spiele zu realisieren. 
 
-# Wozu ist das alle gut?
+# Wozu ist das alles gut?
 Die Idee hier ist eine spielerische Umgebung zu schaffen um Kinder an das Programmieren mit Arduino heran zu führen. Es sind echte Programme die mit Hardware interagieren. Durch fertige Spiele hat man eine gute Basis um einzusteiegen und es gibt Raum komplett eigene Spiele zu erfinden. Basierend auf den eher einfachen Eingabe- und Ausgabe- Geräten.
 
 Und wer nicht programmieren im Vordergrund sieht, es ist ein schönes Bastelprojekt. Mit der fertigen Spiele-Software kann man auch ohne Programmierung ein funktionsfähiges Gerät zusammenbauen.
