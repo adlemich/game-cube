@@ -10,6 +10,8 @@ Der Game Cube ist ein digitales Spielzeug, das man selbst programmieren kann. Fe
  - eine 8x8 LED Matrix die als Spielfläche verwendet wird - also der Bildschirm
  - Ein Punkte / Zeitzähler
 
+![GameCube1](https://github.com/adlemich/game-cube/blob/main/GameCube.jpg?raw=true)
+
 Dahinter steckt ein Ardunio Micro-Controller. Hier wird Software aufgespielt die die Hardware (Knöpfe und Co.) nutzt um dann entsprechend Spiele zu realisieren. 
 
 # Wozu ist das alle gut?
