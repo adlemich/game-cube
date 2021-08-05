@@ -26,13 +26,14 @@
 #define LED_FARBE_GRUEN       1
 #define LED_FARBE_BLAU        2
 #define LED_FARBE_ORANGE      3
-#define LED_FARBE_WEISS       4
+#define LED_FARBE_SCHWARZ     4
+#define LED_FARBE_WEISS       5
 
-#define SCHALTER_MODUS_PIN     8      // Dies ist der Kanal für den Modus-Schalter
-#define TASTER_GRUEN_UNTEN_PIN 9      // Dies ist der Kanal für den grünen, unteren Taster
-#define TASTER_GRUEN_OBEN_PIN 10      // Dies ist der Kanal für den grünen, oberen Taster
-#define TASTER_ROT_UNTEN_PIN  11      // Dies ist der Kanal für den roten, unteren Taster
-#define TASTER_ROT_OBEN_PIN   12      // Dies ist der Kanal für den roten, oberen Taster
+#define SCHALTER_MODUS_PIN     12      // Dies ist der Kanal für den Modus-Schalter
+#define TASTER_GRUEN_UNTEN_PIN  8      // Dies ist der Kanal für den grünen, unteren Taster
+#define TASTER_GRUEN_OBEN_PIN   9      // Dies ist der Kanal für den grünen, oberen Taster
+#define TASTER_ROT_UNTEN_PIN   11      // Dies ist der Kanal für den roten, unteren Taster
+#define TASTER_ROT_OBEN_PIN    10      // Dies ist der Kanal für den roten, oberen Taster
 
 #define LED_AUF_BORD          13      // Dies ist der Kanel für rote die LED auf dem Board
 
@@ -49,7 +50,8 @@
 #define UND                   &&      // Mit diesem Wort kann man eine Überprüfung machen
 #define SCHLEIFE              for     // Mit diesem Wort kann man eine Schleife (sich wiederholdende Befehle) starten
 #define WARTE                 delay   // Mit diesem Befehl kann man für x Millisekunden warten bis es weiter geht
-#define ZAHL                  int     // Dieses Wort legt fest, dass eine Variable eine Zahl sein soll
+#define ZAHL                  int     // Dieses Wort legt fest, dass eine Variable eine Ganzzahl sein soll
+#define KOMMAZAHL             double  // Dieses Wort legt fest, dass eine Variable eine Gleitkommazahl sein soll
 #define ZUSTAND               bool    // Dieses Wort legt fest, dass eine Variable ein Zustand (Ja/Nein) sein soll
 #define FUNKTION              void    // Dieses Wort legt den Beginn einer Funktion fest
 #define JA                    true    // Dieses Wort wird genutzt um den Zustand von Tasten und Schaltern zu prüfen

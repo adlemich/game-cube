@@ -62,6 +62,9 @@ FUNKTION led_matrix_reihe(ZAHL reihe, ZAHL farbe) {
     SONST WENN (farbe IST LED_FARBE_ORANGE) {
       ledMatrix.setPixelColor(ledNr, ledMatrix.Color(LED_HELLIGKEIT, LED_HELLIGKEIT/2, 0));
     }
+    SONST WENN (farbe IST LED_FARBE_SCHWARZ) {
+      ledMatrix.setPixelColor(ledNr, ledMatrix.Color(0, 0, 0));
+    }
     SONST WENN (farbe IST LED_FARBE_WEISS) {
       ledMatrix.setPixelColor(ledNr, ledMatrix.Color(LED_HELLIGKEIT, LED_HELLIGKEIT, LED_HELLIGKEIT));
     }
@@ -101,6 +104,9 @@ FUNKTION led_matrix_spalte(ZAHL spalte, ZAHL farbe) {
     SONST WENN (farbe IST LED_FARBE_ORANGE) {
       ledMatrix.setPixelColor(ledNr, ledMatrix.Color(LED_HELLIGKEIT, LED_HELLIGKEIT/2, 0));
     }
+    SONST WENN (farbe IST LED_FARBE_SCHWARZ) {
+      ledMatrix.setPixelColor(ledNr, ledMatrix.Color(0, 0, 0));
+    }
     SONST WENN (farbe IST LED_FARBE_WEISS) {
       ledMatrix.setPixelColor(ledNr, ledMatrix.Color(LED_HELLIGKEIT, LED_HELLIGKEIT, LED_HELLIGKEIT));
     }
@@ -134,6 +140,9 @@ FUNKTION led_matrix_punkt(ZAHL reihe, ZAHL spalte, ZAHL farbe) {
   }
   SONST WENN (farbe IST LED_FARBE_ORANGE) {
     ledMatrix.setPixelColor(ledNr, ledMatrix.Color(LED_HELLIGKEIT, LED_HELLIGKEIT/2, 0));
+  }
+  SONST WENN (farbe IST LED_FARBE_SCHWARZ) {
+      ledMatrix.setPixelColor(ledNr, ledMatrix.Color(0, 0, 0));
   }
   SONST WENN (farbe IST LED_FARBE_WEISS) {
     ledMatrix.setPixelColor(ledNr, ledMatrix.Color(LED_HELLIGKEIT, LED_HELLIGKEIT, LED_HELLIGKEIT));
