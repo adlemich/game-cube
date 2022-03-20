@@ -13,12 +13,20 @@
 //------------------------------------------------------------------------------------------------------------
 // DEFINE - Hier werden Definitionen und Konstanten festgelegt
 //------------------------------------------------------------------------------------------------------------
-#define DISPL_4DIGIT_CLK_PIN  2
-#define DISPL_4DIGIT_DIO_PIN  3
+#define DISPL_4DIGIT_CLK_PIN    2      // Dies ist der digitale Ausgang CLK für das 4-Digit Zahlen Display
+#define DISPL_4DIGIT_DIO_PIN    3      // Dies ist der digitale Ausgang DIO für das 4-Digit Zahlen Display
+#define LED_MATRIX_PIN          6      // Dies ist der digitale Ausgang für das 8x8 LED Feld
+
+#define TASTER_GRUEN_UNTEN_PIN  8      // Dies ist der digitale Eingang für den grünen, unteren Taster
+#define TASTER_GRUEN_OBEN_PIN   9      // Dies ist der digitale Eingang für den grünen, oberen Taster
+#define TASTER_ROT_UNTEN_PIN   10      // Dies ist der digitale Eingang für den roten, unteren Taster
+#define TASTER_ROT_OBEN_PIN    11      // Dies ist der digitale Eingang für den roten, oberen Taster
+#define SCHALTER_MODUS_PIN     12      // Dies ist der digitale Eingang für den Modus-Schalter
+
+#define LED_AUF_BORD          13       // Dies ist der digitale Ausgang für rote die LED auf dem Board
+
 #define DISPL_4DIGIT_HELL     5
 #define DISPL_4DIGIT_DUNKEL   1
-
-#define LED_MATRIX_PIN        6       // Dies ist der digitale Ausgang für das 8x8 LED Feld
 #define LED_MATRIX_ANZAHL     64      // Anzahl der LED auf der 8x8 Matrix = 64
 #define LED_MATRIX_AUS        ledMatrix.clear(); ledMatrix.show()  // Dieser Befehl löscht die LEDs 
 #define LED_HELLIGKEIT        10 
@@ -28,14 +36,6 @@
 #define LED_FARBE_ORANGE      3
 #define LED_FARBE_SCHWARZ     4
 #define LED_FARBE_WEISS       5
-
-#define SCHALTER_MODUS_PIN     12      // Dies ist der Kanal für den Modus-Schalter
-#define TASTER_GRUEN_UNTEN_PIN  8      // Dies ist der Kanal für den grünen, unteren Taster
-#define TASTER_GRUEN_OBEN_PIN   9      // Dies ist der Kanal für den grünen, oberen Taster
-#define TASTER_ROT_UNTEN_PIN   11      // Dies ist der Kanal für den roten, unteren Taster
-#define TASTER_ROT_OBEN_PIN    10      // Dies ist der Kanal für den roten, oberen Taster
-
-#define LED_AUF_BORD          13      // Dies ist der Kanel für rote die LED auf dem Board
 
 #define AN                    HIGH    // Wert um einen digitalen Ausgang AN zu schalten
 #define AUS                   LOW     // Wert um einen digitalen Ausgang AUS zu schalten
